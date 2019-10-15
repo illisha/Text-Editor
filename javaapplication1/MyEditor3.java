@@ -118,7 +118,7 @@ public class MyEditor3 {
         underlineButton.setText("Underline");
         underlineButton.addActionListener(editButtonActionListener);
 
-        String[] cases = {"Case", "UPPERCASE", "lowercase", "Toggle cASE"}; //defines available cases on text 
+        String[] cases = {"Case", "Toggle cASE", "lowercase", "UPPERCASE" }; //defines available cases on text 
 
         JComboBox caseList = new JComboBox(cases);
         ActionListener caseAction = new ActionListener() {
